@@ -35,10 +35,7 @@ def train_and_predict():
     settings.PARAM['num_layers'] = _da_num_layers
     _da_num_weeks = 9
     settings.NUM_WEEKS = _da_num_weeks
-    # _da_date = datetime.fromisoformat('2021-03-25 11:00:00') - timedelta(weeks = 9)
-    # settings.DB_QUERY_ARGS['start_date'] = _da_date
-    # settings.DB_QUERY_ARGS['end_date'] = None
-    _da_version = 'trash'
+    _da_version = 'v1'
     settings.VERSION = _da_version
     _da_hidden_size = 200
     settings.PARAM['hidden_size'] = _da_hidden_size
